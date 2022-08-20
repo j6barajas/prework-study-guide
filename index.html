@@ -20,16 +20,31 @@
           <li>The body element represents the visible content shown to the user.</li>
           <li>Common elements in HTML: text, image, header, list.</li>
           <li>HTML is building the framework for the webpage.</li>
-          <li>Headings are listed in numerical order, like h1, h2, etc. The earlier numbers produce bigger headings, and the later ones are smaller headings.
+          <li>Headings are listed in numerical order, like h1, h2, etc. The earlier numbers produce bigger headings, and the later ones are smaller headings.</li>
+          <li>Doctype declaration tells cpu what kind of document it is.</li>
+          <li>An attribute (defined w an equal sign) defines additional info about the element it is nested in.</li>
+          <li>Metadata tells our browser information about the webpage.</li>
+          <li>Semantic elements' names describe them.</li>
+          <li>ul is unordered list, ol is ordered list, li is list element. </li>
+          <li>img element contains info about images on webpage; src attribute defines location of image on webpage; alt attributes are important for assistive tech, describes function and appearance of image.</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>CSS (cascading style sheets) make the project more readable and appealing to viewer.</li>
+          <li>inline CSS apply to specific elements, each must be edited individually</li>
+          <li>internal style sheet applies rules for the entire file, located in the head section.</li>
+          <li>external style sheet is most common, links external files w CSS sheet to the base file; file is linked using a link element in the HTML head section</li>
+          <li>CSS RULE) selector {property:value}; brackets indicate declaration block, with each pair of property and value being a declaration.</li>
+          <li>CSS Box Model) content is surrounded by padding, which is surrounded by border, which is surrounded by margin</li>
+          <li>* is wild card selector that applies rules to all elements on page</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
           <li>A class attribute can give properties to all HTML elements assigned the class selector.</li>
+          <li>linking an external CSS: go to head section of html to add <link rel=relationship href= relative link to file></li>
+          <li>make sure selector is assigned to the correct elements in the CSS and in the HTML</li>
         </ul>
       </section>
    
@@ -38,6 +53,7 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>to sync changes in git repository:1)make sure you are in the correct directory (git status). 2)git add -A to commit files to working branch. 3)git commit to commit changes (-m to add a message). 4)git pull origin main to pull in main branch. 5)git push origin (branch) to push changes to main branch. 6)create and complete pull request in github, w/ main branch as base and (branch) as compare. 7)navigate to local main branch (git checkout main) and update local branch w/ git pull origin main</li>
           <li>checkout git cheatsheet for more git shortcuts</li>
         </ul>
       </section>
@@ -45,7 +61,23 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JS is added near end of body section because adding it earlier can create issues.</li>
+          <li>variable: container that stores values</li>
+          <li>JS is case sensitive</li>
+          <li>use "let" to declare a variable</li>
+          <li>use structure variable = value to give it a value</li>
+          <li>variable types: string, boolean, number, array, object</li>
+          <li>can use comments by enclosing them in /* */</li>
+          <li>Operator produces results based on two variables. </li>
+          <li>operator types: add, subtract, multiply, divide, assignment, strict equality</li>
+          <li>conditionals can dictate what code is run (if then statements)</li>
+          <li>functions: followed by parantheses and have multiple uses</li>
+          <li>events listen for activity in a browser</li>
+          <li>null is absence of value</li>
+          <li>BigInt can accurately store more integers than number type</li>
+          <li>Strings should only be used for textual data.</li>
+          <li>Objects are collections of properties; data property and accessor properties.</li>
+          
         </ul>
       </section>
     </main>
